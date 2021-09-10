@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOrderingAPI", "NumberOrderingAPI.csproj", "{84084EBD-99BB-4A45-888A-FE9870A2203B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOrderAPITests", "..\NumberOrderAPITests\NumberOrderAPITests.csproj", "{71B470E4-3ED5-4FA4-B856-B49512B0D5B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84084EBD-99BB-4A45-888A-FE9870A2203B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84084EBD-99BB-4A45-888A-FE9870A2203B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84084EBD-99BB-4A45-888A-FE9870A2203B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84084EBD-99BB-4A45-888A-FE9870A2203B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B470E4-3ED5-4FA4-B856-B49512B0D5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B470E4-3ED5-4FA4-B856-B49512B0D5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B470E4-3ED5-4FA4-B856-B49512B0D5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B470E4-3ED5-4FA4-B856-B49512B0D5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E7BFD9C-70D7-482F-8B98-6A7A8248FD5D}
+	EndGlobalSection
+EndGlobal
