@@ -60,6 +60,7 @@ namespace NumberOrderingAPI.Services
         {
             try
             {
+                // get the directory path and find latest file
                 var directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "OrderedFiles");
                 var lastestFilePath = Directory.GetFiles(directoryPath).Select(x => Convert.ToInt64(x.Substring(directoryPath.Length + 1 + fileNamePrefix.Length, 10))).Max(); //get the latest file by comparing the epoc time in filename
                 var latestPath = Path.Combine(directoryPath, fileNamePrefix + lastestFilePath + ".txt");
