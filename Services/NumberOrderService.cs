@@ -73,7 +73,6 @@ namespace NumberOrderingAPI.Services
                 Console.WriteLine($"Exception: {ex.Message}");
                 throw;
             }
-            
 
         }
 
